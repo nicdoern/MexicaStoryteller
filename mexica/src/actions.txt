@@ -57,19 +57,19 @@ With a hidden knife @A was able to cut all the ropes and escape.
 ACT
 Bit 2
 PRE
-T Av a
-T Ah b
+T Av a *
+T Ah b *
 TEN
 T Av b
 TEXT
-@A felt fresh blood within close proximity and directly turned his head. @B started shaking, but it was too late - no time to escape. In the second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
+@A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late - no time to escape. In the second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
 
 ACT
 Commited_Suicide 1
 TEN
 T Ad a
 TEXT
-@A got that depress that committed suicide.
+@A got so depressed that @A committed suicide.
 
 ACT
 Confronted 2
