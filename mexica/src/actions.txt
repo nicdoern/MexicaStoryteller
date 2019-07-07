@@ -60,7 +60,7 @@ PRE
 T Av a *
 T Ah b *
 TEN
-T Av b
+T Av b a
 TEXT
 @A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late - no time to escape. In the second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
 
@@ -181,10 +181,10 @@ The injuries that @A received were very serious, he didn't have a chance to surv
 ACT
 drove_a_stake_through_the_heart_of 2
 PRE
-T Av b
-T Ah a
+T Av b *
+T Ah a *
 TEN
-T Ad b
+T Ad b a
 TEXT
 @A took the moment and drove a stake through @B's heart. @B gave a deep scream and in the next moment went to dust.
 
@@ -408,7 +408,7 @@ PRE
 E a b -2 4
 POS
 E b a -3 1
-P b 7
+P b 4
 TEN
 T Pr b a
 TEXT

@@ -611,8 +611,10 @@ public class MexicaConfiguration extends javax.swing.JFrame {
 
                 @Override
                 public void run() {
-                    if (MexicaParameters.ENABLE_LOG_INFO)
-                        Logger.getGlobal().setLevel(Level.INFO);
+                    if (MexicaParameters.ENABLE_LOG_INFO) {
+                        Logger.getGlobal().setLevel(Level.ALL);
+                        Logger.getGlobal().getParent().getHandlers()[0].setLevel(Level.ALL);
+                    }
                     else
                         Logger.getGlobal().setLevel(Level.OFF);
                     MexicaFileConfiguration fileConfig = new MexicaFileConfiguration();

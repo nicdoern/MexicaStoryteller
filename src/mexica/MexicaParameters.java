@@ -97,7 +97,7 @@ public class MexicaParameters {
     /** Enables / Disables the non representative context filter */
     public static boolean INCLUDE_NON_REPRESENTATIVE_CONTEXTS = false;
     /** Enables / Disables the graphical notification elements */
-    public static boolean DISPLAY_GRAPHICAL_NOTIFICATIONS = false;
+    public static boolean DISPLAY_GRAPHICAL_NOTIFICATIONS = true;
     /** Enables / Disables the log info */
     public static boolean ENABLE_LOG_INFO = true;
     /** Enables / disables the Mexica impro collaborative generation */
