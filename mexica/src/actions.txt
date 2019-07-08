@@ -511,6 +511,12 @@ TEXT
 The rumour had spread fast. @B had fallen into the river and @A saved @B's life.
 
 ACT
+Slept_in_their_coffin 1
+PRE
+T Av a *
+As the sun was rising, @A went to sleep in their large, comfy coffin.
+
+ACT
 Took_for_wife 2
 PRE
 E a b +1 2
@@ -518,6 +524,12 @@ POS
 E b a -3 1
 TEXT
 @A was in love with @B and decided to make a life together. @A decided to marry @B, even without approval.
+
+ACT
+Transformed_into_bat 1
+PRE
+T Av a *
+@a seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
 
 ACT
 Tried_to_abuse 2
