@@ -70,10 +70,10 @@ public class StoryFlowFilter implements IStoryFilter {
                     return true;
             //}
         }
-        
+
         if (MexicaParameters.ENABLE_STORY_EXCEPTIONS) {
             if (!action.getAction().isNewAction())
-                throw new StoryFlowException("The story already contains all the elements of the action: " + action);
+                throw new StoryFlowException("This actions is not included in the previousStories/The story already contains all the elements of the action: " + action);
         }
         
         return false;
