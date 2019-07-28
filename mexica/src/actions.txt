@@ -58,6 +58,7 @@ ACT
 Bit 2
 PRE
 T Av a *
+T Ah b *
 TEN
 T Av b a
 TEXT
