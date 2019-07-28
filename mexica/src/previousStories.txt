@@ -84,7 +84,6 @@ START
 Count_Von_Krolock ACTOR
 Beauty ACTOR
 HUNTER ACTOR
-Count_Von_Krolock Has_Been_Bitten
 HUNTER TRIED_TO_FORCE_KISS Count_Von_Krolock
 HUNTER WENT_Balea_LAKE
 HUNTER WOUNDED Count_Von_Krolock

@@ -55,17 +55,21 @@ public class StoryHelper {
     private void addMissingCondition(ConditionInstantiated condition, ActionInstantiated action) {
         boolean addCondition = true;
         //Validates the missing condition against the context of the character performing the action
-        Avatar avatar = avatarFactory.getAvatar(action.getCharactersList().get(0));
-        if (avatar.isVampire()) {
-            if(condition.getCondition().getTension() != null) {
+        Avatar avatarA = avatarFactory.getAvatar(action.getCharactersList().get(0));
+        Avatar avatarB = avatarFactory.getAvatar(action.getCharactersList().get(1));
+        if(condition.getCondition().getTension() != null) {
+            Avatar avatar;
+            if(condition.getCondition().getCharacterA().compareTo("a") == 0) {
+                avatar = avatarA;
+            } else {
+                avatar = avatarB;
+            }
+            if (avatar.isVampire()) {
                 if(condition.getCondition().getTension().name() == "ActorVampire") {
                     addCondition = false;
                 }
             }
-        }
-
-        if (!avatar.isVampire()) {
-            if(condition.getCondition().getTension() != null) {
+            if (!avatar.isVampire()) {
                 if(condition.getCondition().getTension().name() == "ActorHuman") {
                     addCondition = false;
                 }
@@ -73,7 +77,7 @@ public class StoryHelper {
         }
 
 
-        for (ConditionInstantiated cond : avatar.getContext().getFacts()) {
+        for (ConditionInstantiated cond : avatarA.getContext().getFacts()) {
             ComparisonResult res = ConditionComparer.compare(cond, condition);
             if (res.isEqualOrEquivalent(true, true)) {
                 addCondition = false;
