@@ -122,7 +122,6 @@ START
 Beauty went Cemetery
 Nosferatu followed Beauty
 Nosferatu fell_in_love Beauty
-
 Beauty Went_Mountains
 Villager Kidnapped Beauty
 Nosferatu Realised Villager Kidnapped Beauty
