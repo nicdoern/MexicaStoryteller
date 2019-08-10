@@ -414,11 +414,11 @@ TEXT
 Finally, after a long time paying his social debts, @A was finally free.
 
 ACT
-put_out_a_cross
+put_out_a_cross 1
 PRE
 T Ah a
 TEXT
-To save themself, @A put out a cross and hold it in front of their body.
+To save themself, @A put out a cross and held it in front of their body.
 
 ACT
 ran_and_hide_from 2
@@ -493,6 +493,7 @@ ACT
 Slept_in_coffin 1
 PRE
 T Av a *
+TEXT
 As the sun was rising, @A went to sleep in their large, comfy coffin.
 
 ACT
@@ -520,7 +521,8 @@ ACT
 Transformed_into_bat 1
 PRE
 T Av a *
-@a seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
+TEXT
+@A seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
 
 ACT
 Tried_to_force_kiss 2

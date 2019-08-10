@@ -4,7 +4,7 @@ Vampire_Researcher admired Hunter
 Hunter had_an_accident
 Vampire_Researcher looked_for_and_found Hunter
 Vampire_Researcher healed Hunter
-Hunter Went_Tavern_With_Vampire_Researcher
+Hunter Went_Tavern_With Vampire_Researcher
 Hunter Went_Castle_With Vampire_Researcher
 Dracula hated Hunter
 Dracula Was_Close_To_Bite Hunter
@@ -34,7 +34,7 @@ START
 Beauty Was_In_Love_With Vampire_Researcher
 Vampire_Researcher Went_Tavern
 Vampire_Researcher Was_Friend_Of Host
-Count_Von_Krolock Fell_In_In_Love Beauty
+Count_Von_Krolock Fell_In_Love Beauty
 Beauty Went_For_A_Walk_In_The_Dark
 Count_Von_Krolock Kidnapped Beauty
 Vampire_Researcher looked_for_and_found Beauty
@@ -69,7 +69,7 @@ Nosferatu fell_in_love Lady
 Lady did_not_love Nosferatu
 Lady attacked Nosferatu
 Nosferatu was_close_to_bite Lady
-Host looked_for_and_found_ Lady
+Host looked_for_and_found Lady
 Nosferatu hurt Host
 Nosferatu Bit Lady
 Host died_by_injuries
@@ -119,10 +119,9 @@ Priest cured Vampire_Researcher
 
 Sto ; 1.9
 START
-Beauty went Cemetery
+Beauty Went_Cemetery
 Nosferatu followed Beauty
 Nosferatu fell_in_love Beauty
-
 Beauty Went_Mountains
 Villager Kidnapped Beauty
 Nosferatu Realised Villager Kidnapped Beauty
@@ -145,7 +144,6 @@ Sto ; 1.10
 START
 Dracula Was_Father_Of Beauty
 Dracula Had_An_Accident
-Beauty Did_Not_Cure Dracula
 Beauty Went_Village
 Hunter Found_By_Accident Dracula
 Hunter Realised Dracula Had_An_Accident
@@ -189,15 +187,14 @@ Hunter Attacked Villager
 Villager Fought Hunter
 Hunter hurt Villager
 Hunter Ran_Away
-Beauty Did_Not_Cure Villager
 Beauty Went_Village
 Villager Died_By_Injuries
 
 Sto ; 1.14
 START
 Nosferatu Were_In_Love Lady
-Nosferatu Loved Beauty
-Vampire_Researcher Loved Beauty
+Nosferatu Were_In_Love Beauty
+Vampire_Researcher Were_In_Love Beauty
 Beauty Went_Mountains
 Villager Kidnapped Beauty
 Nosferatu Realised Villager Kidnapped Beauty
