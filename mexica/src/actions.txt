@@ -1,9 +1,12 @@
 ACT
-Admired_and_respected 2
+Admired 2
+PRE
+T Ah a
+T A b
 POS
 E a b +2 1
 TEXT
-@A respected and admired @B because of @B's heroic and intrepid behaviour during the last vampire battle.
+@A admired @B because of @B's heroic and intrepid behaviour during the last vampire battle.
 
 ACT
 Admired_heroic_behavior 2
@@ -114,25 +117,6 @@ TEXT
 Even though @A was pleased with @B's offering. A bad spirit took @A's soul and he denied it. Now @B is really upset.
 
 ACT
-Did_not_cure 2
-PRE
-T Hr b *
-POS
-E b a -3 1
-E Lb a % 1
-TEXT
-@A, knowing that @B's life was at risk, did not to cure @B. In this way, @A expected @B's dead.
-
-ACT
-Did_Not_Know_to_cure 2
-PRE
-T Hr b *
-POS
-E b a +2 1
-TEXT
-@A tried to cure @B, but @A did not know how to use the curative plants.
-
-ACT
 Did_not_love 2
 PRE
 E b a +3 2
@@ -161,7 +145,7 @@ TEXT
 @B's previous behaviors confused @A but the anger was bigger than the forgiveness and a second opportunity was no longer an option for @B.
 
 ACT
-did_not_survive 1
+Did_not_survive 1
 PRE
 T Lr a *
 TEN
@@ -170,7 +154,7 @@ TEXT
 Even when @A made a great effort to survive, it didn't have a good outcome.
 
 ACT
-died_by_injuries 1
+Died_by_injuries 1
 PRE
 T Hr a *
 TEN
@@ -179,7 +163,12 @@ TEXT
 The injuries that @A received were very serious, he didn't have a chance to survive and died.
 
 ACT
-drove_a_stake_through_the_heart_of 2
+Dreamt_of 2
+TEXT
+@A could not get @B out of the mind, @B even followed @A in dreams.
+
+ACT
+Drove_a_stake_through_the_heart_of 2
 PRE
 T Av b *
 T Ah a *
@@ -277,13 +266,6 @@ TEXT
 A bad spirit took @A's soul provoking that @A got intensely jealous of @B.
 
 ACT
-Got_Jealous_Of 2
-POS
-E a b -2 1
-TEXT
-A bad spirit took @A's soul provoking that @A got jealous of @B.
-
-ACT
 Got_married_with 2
 PRE
 E a b +1 4
@@ -348,7 +330,7 @@ E Lb a % 1
 TEN
 T Hr b a
 TEXT
-@A took a war lance and hurt seriously @B.
+In a fast movement, @A took a knife out of his bag and hurt @B.
 
 ACT
 Kidnapped 2
@@ -375,11 +357,16 @@ TEXT
 PENDING TEXT
 
 ACT
+Kissed 2
+TEXT
+@A took the chance and kissed @B.
+
+ACT
 Laugh_at 2
 POS
 E b a -2 1
 TEXT
-@A made fun and laugh at @B.
+@A made fun and laughed at @B.
 
 ACT
 Life_at_Risk_by_Accident 1
@@ -396,14 +383,7 @@ TEXT
 Meanwhile @A decided to start a search for @B. After hard work and difficult moments @A could finally find @B.
 
 ACT
-Loved 2
-POS
-E a b +3 1
-TEXT
-@A admired and felt a strong affection for @B.
-
-ACT
-Made_Prisioner 2
+Made_Prisoner 2
 PRE
 E a b -2 4
 POS
@@ -417,15 +397,7 @@ TEXT
 ACT
 Met 2
 TEXT
-One day @A was introduced to @B.
-
-ACT
-Mugged 2
-POS
-E b a -3 1
-E Lb a -3 1
-TEXT
-When nobody noticed it, @A mugged @B.
+Unexpectedly @A met @B.
 
 ACT
 paid_his_sentence 1
@@ -440,6 +412,13 @@ T Sdn a
 T Sbn a
 TEXT
 Finally, after a long time paying his social debts, @A was finally free.
+
+ACT
+put_out_a_cross
+PRE
+T Ah a
+TEXT
+To save themself, @A put out a cross and hold it in front of their body.
 
 ACT
 ran_and_hide_from 2
@@ -508,13 +487,25 @@ E b a +3 1
 TEN
 T Ln b *
 TEXT
-The rumour had spread fast. @B had fallen into the river and @A saved @B's life.
+@B nearly got bitten by a vampire and @A saved @B's life.
 
 ACT
-Slept_in_their_coffin 1
+Slept_in_coffin 1
 PRE
 T Av a *
 As the sun was rising, @A went to sleep in their large, comfy coffin.
+
+ACT
+Spent_a_night_in_tavern 1
+POS
+P a 7
+TEXT
+It had been a long day. To find some calm sleep, @A decided to stay a night in one og the guestrooms in the old tavern.
+
+ACT
+Told 2
+TEXT
+@A told @B about what had happened
 
 ACT
 Took_for_wife 2
@@ -532,20 +523,17 @@ T Av a *
 @a seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
 
 ACT
-Tried_to_abuse 2
-POS
-E b a -3 1
-E Lb a % 1
-TEXT
-@A tried to sexually abuse from @B.
-
-ACT
 Tried_to_force_kiss 2
 POS
 E b a -2 1
 E Lb a % 1
 TEXT
 @A tried to kiss and hug @B.
+
+ACT
+Visited 2
+Text
+@A decided to secretly visit @B.
 
 ACT
 Was_attracted_to 2
@@ -555,11 +543,20 @@ TEXT
 @A felt a strong attraction for @B.
 
 ACT
-was_brother_of 2
+Was_brother_of 2
 POS
 E a b +3 1
 TEXT
 @A was a brother of @B.
+
+ACT<br>
+Was_close_to_bite 2<br>
+PRE<br>
+T Av a *<br>
+T Ah b<br>
+TEXT<br>
+@A smelled the fresh human blood near his face and opened his mouth, so you could see their sharp teeth.<br>
+<br>
 
 ACT
 was_father_of 2
@@ -617,6 +614,13 @@ TEXT
 @A went to the tavern.
 
 ACT
+Went_Tavern_With 2
+POS
+P a 7
+TEXT
+@A went to the tavern with @B to drink something and get some new power and energy.
+
+ACT
 Went_Castle 1
 POS
 P a 4
@@ -624,11 +628,25 @@ TEXT
 @A went to Dracula's castle.
 
 ACT
+Went_Castle_With 2
+POS
+P a 4
+TEXT
+The next day @A and @B made themselves on their way to Dracula's castle.
+
+ACT
+Went_for_a_walk_in_the_dark 1
+POS
+P a 5
+TEXT
+It was a calm, foggy night. The full moon was hidden behind some clouds. @A felt like going for a little walk in the dark.
+
+ACT
 Went_Mountains 1
 POS
 P a 2
 TEXT
-@A went to the mountains.
+@A went on a hiking tour through the Carpathians.
 
 ACT
 Went_Mountains 2
@@ -721,7 +739,7 @@ POS
 E a b +2 1
 E b a +2 1
 TEXT
-@A and @B had met in school. Since then they had been good friends.
+@A and @B were close friends, they met neary each day.
 
 ACT
 Were_In_Love 2
@@ -746,17 +764,5 @@ E a b -2 1
 E b a -2 1
 TEXT
 For long time @A and @B had been rivals. Now, those feelings seemed to grow more and more.
-
-ACT
-Wounded 2
-PRE
-E a b -3 4
-POS
-E b a -3 1
-E Lb a -3 1
-TEN
-T Hr b a
-TEXT
-In a fast movement, @A wounded @B. An intense haemorrhage arouse which weakened @B.
 
 END

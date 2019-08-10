@@ -11,10 +11,7 @@ public enum CharacterName {
     Priest,
     Lady,
     Virgin,
-    Farmer,
     Hunter,
-    Fisherman,
-    Trader,
     Vampire_Researcher,
     Host,
     Servant,
@@ -52,10 +49,7 @@ public enum CharacterName {
             case Priest:
             case Lady:
             case Virgin:
-            case Farmer:
             case Hunter:
-            case Fisherman:
-            case Trader:
             case Vampire_Researcher:
             case Host:
             case Servant:
@@ -74,10 +68,7 @@ public enum CharacterName {
             case Priest:return "Pt";
             case Lady:return "L";
             case Virgin:return "V";
-            case Farmer:return "F";
             case Hunter:return "H";
-            case Fisherman:return "Fs";
-            case Trader:return "Tr";
             case Vampire_Researcher:return "VR";
             case Host:return "HO";
             case Servant:return "S";
@@ -95,10 +86,7 @@ public enum CharacterName {
             case "Pt": return Priest;
             case "L": return Lady;
             case "V": return Virgin;
-            case "F": return Farmer;
             case "H": return Hunter;
-            case "Fs": return Fisherman;
-            case "Tr": return Trader;
             case "VR": return Vampire_Researcher;
             case "HO": return Host;
             case "S": return Servant;
@@ -111,7 +99,7 @@ public enum CharacterName {
     /** Characters that can be selected for an action */
     private static CharacterName[] selectableCharacters = new CharacterName[] {
             Dracula, Nosferatu, Count_Von_Krolock, Priest, Beauty,
-            Lady, Virgin, Farmer, Hunter, Fisherman, Trader, Vampire_Researcher, Host, Servant, Villager
+            Lady, Virgin, Hunter, Vampire_Researcher, Host, Servant, Villager
         };
     
     /**
