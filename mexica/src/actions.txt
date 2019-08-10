@@ -2,18 +2,11 @@ ACT
 Admired 2
 PRE
 T Ah a
-T A b
+T Ah b
 POS
 E a b +2 1
 TEXT
 @A admired @B because of @B's heroic and intrepid behaviour during the last vampire battle.
-
-ACT
-Admired_heroic_behavior 2
-POS
-E a b +3 1
-TEXT
-@A admired @B because of @B's heroic and intrepid behaviour.
 
 ACT
 Affronted 2
@@ -32,7 +25,7 @@ E b a -2 4
 POS
 E b a +2 1
 TEXT
-@A was really upsed for the last events and decided to beseech for @B's forgiveness.
+@B didn't want @A too feel angry, so @B apologized for what had happened.
 
 ACT
 Attacked 2
@@ -45,17 +38,7 @@ E b a -2 4
 TEN
 T Lr b a +
 TEXT
-@A thoroughly observed @B. Then, @A took a dagger, jumped towards @B and attacked @B.
-@A's frame of mind was very volatile and without thinking about it @A charged against @B.
-
-ACT
-Became_free 1
-PRE
-T Pr a *
-TEN
-T Pf a
-TEXT
-With a hidden knife @A was able to cut all the ropes and escape.
+@A thoroughly observed @B. Then, @A suddenly jumped towards @B and attacked @B.
 
 ACT
 Bit 2
@@ -104,17 +87,7 @@ E b a -2 1
 TEN
 T Lr b a
 TEXT
-@A realised that @B's actions originated several problems in the comunity. Thus, @A wanted to stop @B
-
-ACT
-Did_not_accept_reward 2
-PRE
-E a b +2 1
-E b a +2 1
-POS
-E b a -3 1
-TEXT
-Even though @A was pleased with @B's offering. A bad spirit took @A's soul and he denied it. Now @B is really upset.
+@A was stressed out and simply wanted @B to stop.
 
 ACT
 Did_not_love 2
@@ -138,15 +111,9 @@ TEXT
 Even when @A could help @B, @A decided it was not worth to take the risk. However, the danger passed suddenly. @B hated @A because @A was a coward.
 
 ACT
-Did_not_spare 2
-PRE
-T Ce b a
-TEXT
-@B's previous behaviors confused @A but the anger was bigger than the forgiveness and a second opportunity was no longer an option for @B.
-
-ACT
 Did_not_survive 1
 PRE
+T Ah a
 T Lr a *
 TEN
 T Ad a *
@@ -156,6 +123,7 @@ Even when @A made a great effort to survive, it didn't have a good outcome.
 ACT
 Died_by_injuries 1
 PRE
+T Ah a
 T Hr a *
 TEN
 T Ad a
@@ -206,14 +174,10 @@ TEXT
 @A felt guilty for all the things that @A did to @B.
 
 ACT
-felt_strong_envy_for 2
-POS
-E a b -3 1
-TEXT
-@A perceived how people loved and admired @B. Since @A was a very insecure person, @A developed a strong envy for @B.
-
-ACT
 felt_Threatened_by 2
+PRE
+T Ah a
+T Ah b *
 POS
 E a b -3 1
 TEXT
@@ -225,17 +189,6 @@ POS
 P a b_pos
 TEXT
 Without being noticed, @A followed @B.
-
-ACT
-forced_marriage_with 2
-PRE
-E a b +3 2
-E b a -1 4
-TEN
-T Lr a b
-T Pr b a
-TEXT
-@A realised that @B did not felt the same way and planed a forced marriage. @B now is a prisoner in @A's house and there's nothing to do. Although, @A's life is endangered.
 
 ACT
 Fought 2
@@ -263,7 +216,7 @@ Got_intensely_Jealous_of 2
 POS
 E a b -3 1
 TEXT
-A bad spirit took @A's soul provoking that @A got intensely jealous of @B.
+@A got intensely jealous of @B.
 
 ACT
 Got_married_with 2
@@ -275,14 +228,14 @@ E a b +3 2
 E b a +3 2
 P a b_pos
 TEXT
-The love that @A felt towards @B could not be hidden anymore, and they decided to join their lives for the eternity.
+After all they went through together, @A and @B decided to marry and celebrated a big wedding party.
 
 ACT
 Had_an_accident 1
 TEN
 T Hr a
 TEXT
-PENDING TEXT
+Just a moment preoccupied, @A stumbled and overbalanced.
 
 ACT
 Hated 2
@@ -312,15 +265,6 @@ TEXT
 After some sleep and rest, @A felt much better.
 
 ACT
-honor_was_damaged_by 2
-PRE
-E a b -3 4
-POS
-E La b % 1
-TEXT
-@B damaged @A's honor.
-
-ACT
 Hurt 2
 PRE
 E a b -3 4
@@ -339,10 +283,14 @@ E b a -3 1
 E Lb a % 1
 P a 9
 P b 9
+T Av a *
+T Ah b
 TEN
 T Pr b a
+P a 4
+P b 4
 TEXT
-PENDING TEXT
+@B felt two strong arms pulling at the back and had no chance to escape. @B was kidnapping @A to their castle.
 
 ACT
 Killed 2
