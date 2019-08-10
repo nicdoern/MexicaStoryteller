@@ -290,11 +290,12 @@ T Pr b a
 P a 4
 P b 4
 TEXT
-@B felt two strong arms pulling at the back and had no chance to escape. @B was kidnapping @A to their castle.
+@B felt two strong arms pulling at the back and had no chance to escape. @B was kidnapping @A to @B's castle.
 
 ACT
 Killed 2
 PRE
+T Ah b
 E a b -3 4
 POS
 E b a -3 1
@@ -302,7 +303,7 @@ E Lb a % 1
 TEN
 T Ad b a
 TEXT
-PENDING TEXT
+@A didn't feel pity with @B and strangled @B with a long scarf.
 
 ACT
 Kissed 2
@@ -317,13 +318,6 @@ TEXT
 @A made fun and laughed at @B.
 
 ACT
-Life_at_Risk_by_Accident 1
-TEN
-T Lr a *
-TEXT
-Suddenly, a huge snake, the sacred animal, attacked @A.
-
-ACT
 Looked_For_And_Found 2
 POS
 P a b_pos
@@ -334,32 +328,20 @@ ACT
 Made_Prisoner 2
 PRE
 E a b -2 4
+T Ah a
+T Av b *
 POS
 E b a -3 1
 P b 4
 TEN
 T Pr b a
 TEXT
-@A put @B into jail. @B could not hide how much @B loathed @A.
+@A put @B into the cold dungeon of @A's castle.
 
 ACT
 Met 2
 TEXT
 Unexpectedly @A met @B.
-
-ACT
-paid_his_sentence 1
-PRE
-T Pr a *
-POS
-P a 5
-TEN
-T Pf a
-T Stn a
-T Sdn a
-T Sbn a
-TEXT
-Finally, after a long time paying his social debts, @A was finally free.
 
 ACT
 put_out_a_cross 1
@@ -384,7 +366,7 @@ E a b -3 4
 POS
 P a 2
 TEXT
-@A felt remorse and ran away to hide in the Carpathians.
+@A felt a deep fear and ran away to hide in the Carpathians.
 
 ACT
 ran_away_from 2
@@ -405,16 +387,6 @@ TEXT
 @A felt panic and ran away to hide in the Carpathians.
 
 ACT
-relatives_envy 2
-POS
-E a b -2 1
-E b a +3 1
-TEXT
-@B was admired by the locals. @B loved @A since they were relatives. However, @A was a sick person and could not stand @B's popularity. @A felt a strong envy for @B.
-Although @A and @B were relatives, @B always received all the attention from the family. That is why @A hated @B.
-@A and @B grow up together. However, @A was an evil person and never was able to accept @B 's popularity. @A really hated @B!
-
-ACT
 Rescued 2
 PRE
 T Pr b *
@@ -424,7 +396,7 @@ E Lb a % 1
 TEN
 T Pf b a
 TEXT
-PENDING TEXT
+@A released @B from the cold dark dungeon of the scary castle.
 
 ACT
 Saved_life 2
@@ -457,28 +429,11 @@ TEXT
 @A told @B about what had happened
 
 ACT
-Took_for_wife 2
-PRE
-E a b +1 2
-POS
-E b a -3 1
-TEXT
-@A was in love with @B and decided to make a life together. @A decided to marry @B, even without approval.
-
-ACT
 Transformed_into_bat 1
 PRE
 T Av a *
 TEXT
-@A seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
-
-ACT
-Tried_to_force_kiss 2
-POS
-E b a -2 1
-E Lb a % 1
-TEXT
-@A tried to kiss and hug @B.
+@a seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
 
 ACT
 Visited 2
@@ -499,21 +454,20 @@ E a b +3 1
 TEXT
 @A was a brother of @B.
 
-ACT<br>
-Was_close_to_bite 2<br>
-PRE<br>
-T Av a *<br>
-T Ah b<br>
-TEXT<br>
-@A smelled the fresh human blood near his face and opened his mouth, so you could see their sharp teeth.<br>
-<br>
+ACT
+Was_close_to_bite 2
+PRE
+T Av a *
+T Ah b
+TEXT
+@A smelled the fresh human blood near his face and opened his mouth, so you could see their sharp teeth.
 
 ACT
 was_father_of 2
 POS
 E a b +3 1
 TEXT
-PENDING TEXT
+@A was @B's father.
 
 ACT
 Was_Fond_Of 2
@@ -521,13 +475,6 @@ POS
 E a b +1 1
 TEXT
 From the first day they met, @A felt a special affection for @B.
-
-ACT
-Was_Friend_Of 2
-POS
-E a b +2 1
-TEXT
-PENDING TEXT
 
 ACT
 Was_in_love_with 2
@@ -668,14 +615,6 @@ TEXT
 PENDING TEXT
 
 ACT
-Were_attracted_to 2
-POS
-E a b +2 2
-E b a +2 2
-TEXT
-For long time @A and @B had been flirting. Now, openly they accepted the mutual attraction they felt for each other.
-
-ACT
 Were_brothers 2
 POS
 E a b +3 1
@@ -689,7 +628,7 @@ POS
 E a b +2 1
 E b a +2 1
 TEXT
-@A and @B were close friends, they met neary each day.
+@A and @B were close friends, they met nearly each day.
 
 ACT
 Were_In_Love 2
