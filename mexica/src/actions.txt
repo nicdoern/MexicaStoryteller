@@ -64,7 +64,7 @@ E a b -2 1
 E b a -2 1
 E Lb a % 1
 TEXT
-@A was not pleased with @B's recent behavior and demanded @B to stop.
+@A demanded @B to stop.
 
 ACT
 Cured 2
@@ -80,35 +80,13 @@ TEXT
 @A had heard that the angelica archangelica was an effective curative plant. So, @A prepared a plasma and applied it to @B's wounds. It worked and @B started to recuperate! @B realised that @A's determination had saved @B's life.
 
 ACT
-Demanded 2
-POS
-E a b -3 1
-E b a -2 1
-TEN
-T Lr b a
-TEXT
-@A was stressed out and simply wanted @B to stop.
-
-ACT
 Did_not_love 2
 PRE
 E b a +3 2
 POS
 E b a -2 1
 TEXT
-PENDING TEXT
-
-ACT
-Did_not_Save 2
-PRE
-T Lr b *
-POS
-E b a -3 1
-E Lb a % 1
-TEN
-T Ln b *
-TEXT
-Even when @A could help @B, @A decided it was not worth to take the risk. However, the danger passed suddenly. @B hated @A because @A was a coward.
+@A didn't share @B's feeling.
 
 ACT
 Did_not_survive 1
@@ -162,19 +140,10 @@ POS
 E a b +3 2
 TEXT
 Although at the beginning @A did not want to admit it, @A fell in love with @B.
+@A could feel butterflies in the stomach - @A simply had fallen in love with @B.
 
 ACT
-Felt_Guilty_With 2
-PRE
-E b a -3 4
-POS
-E b a -3 1
-E a a -3 1
-TEXT
-@A felt guilty for all the things that @A did to @B.
-
-ACT
-felt_Threatened_by 2
+Felt_threatened_by 2
 PRE
 T Ah a
 T Ah b *
@@ -212,7 +181,7 @@ TEXT
 While walking around, @A suddenly saw @B.
 
 ACT
-Got_intensely_Jealous_of 2
+Got_intensely_jealous_of 2
 POS
 E a b -3 1
 TEXT
@@ -242,7 +211,7 @@ Hated 2
 POS
 E a b -3 1
 TEXT
-@A hated @B.
+@A felt deep anger when thinking about @B.
 
 ACT
 hated_and_loved 2
@@ -396,7 +365,7 @@ E Lb a % 1
 TEN
 T Pf b a
 TEXT
-@A released @B from the cold dark dungeon of the scary castle.
+@A released @B from the scary castle.
 
 ACT
 Saved_life 2
@@ -484,11 +453,6 @@ TEXT
 @A was in love with @B.
 
 ACT
-Was_Told 1
-TEXT
-PENDING TEXT
-
-ACT
 Went_Forest 1
 POS
 P a 9
@@ -537,6 +501,7 @@ POS
 P a 5
 TEXT
 It was a calm, foggy night. The full moon was hidden behind some clouds. @A felt like going for a little walk in the dark.
+It was close to midnight now. You could hear a werewolf howl from the deep forest - or was it just the wind? @A wasn't tired now und had decided to go for a little walk.
 
 ACT
 Went_Mountains 1

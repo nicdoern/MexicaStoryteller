@@ -23,7 +23,7 @@ Nosferatu transformed_into_bat
 Nosferatu went_castle
 Priest went_village
 Priest met Hunter
-Hunter was_brother_of Priest
+Hunter Were_brothers Priest
 Priest told Hunter
 Hunter went_castle_with Priest
 Nosferatu slept_in_coffin
@@ -33,9 +33,11 @@ Sto; 1.3
 START
 Beauty Was_In_Love_With Vampire_Researcher
 Vampire_Researcher Went_Tavern
-Vampire_Researcher Was_Friend_Of Host
+Vampire_Researcher Were_Friends Host
 Count_Von_Krolock Fell_In_Love Beauty
 Beauty Went_For_A_Walk_In_The_Dark
+Count_Von_Krolock Looked_for_and_found Beauty
+Beauty Felt_threatened_by Count_Von_Krolock
 Count_Von_Krolock Kidnapped Beauty
 Vampire_Researcher looked_for_and_found Beauty
 Count_Von_Krolock Made_Prisoner Vampire_researcher
@@ -52,7 +54,10 @@ Nosferatu fell_in_love Beauty
 Beauty Went_For_A_Walk_In_The_Dark
 Beauty found_by_accident Nosferatu
 Nosferatu kissed Beauty
+Beauty Did_not_love Nosferatu
+Beauty Felt_threatened_by Nosferatu
 Beauty went_village
+Beauty Told Hunter
 Hunter went_castle
 Hunter confronted Nosferatu
 Nosferatu Was_Close_To_Bite Hunter
@@ -61,7 +66,7 @@ Beauty Got_Married_With Hunter
 
 Sto; 1.5
 START
-Villager was_friend_of Host
+Villager Were_friends Host
 Villager saved_life Host
 Lady was_in_love_with Villager
 Lady went_cemetery
@@ -77,31 +82,32 @@ Villager commited_suicide
 
 Sto ;1.6
 START
-Count_Von_Krolock was_friend_of Dracula
-Dracula was_friend_of Nosferatu
-Nosferatu Was_In_Love_With Beauty
-Count_von_Krolock Was_In_Love_With Beauty
-Dracula Was_In_Love_With Beauty
+Count_Von_Krolock Were_friends Dracula
+Dracula Were_friends Nosferatu
+Nosferatu Fell_in_love Beauty
+Count_Von_Krolock Fell_in_love Beauty
+Dracula Fell_in_love Beauty
 Dracula Attacked Nosferatu
-Nosferatu attacked Count_von_Krolock
+Nosferatu attacked Count_Von_Krolock
 Vampire_Researcher went_Castle
 Vampire_Researcher drove_a_stake_through_the_heart_of Dracula
 Vampire_Researcher fought Nosferatu
-Vampire_Researcher drove_a_stake_through_the_heart_of Count_von_Krolock
+Vampire_Researcher drove_a_stake_through_the_heart_of Count_Von_Krolock
 Beauty ran_and_hide
 
 Sto ; 1.7
 START
-Count_von_Krolock Fell_In_love Beauty
+Count_Von_Krolock Fell_In_love Beauty
 Host Was_Father_Of Beauty
 Vampire_Researcher Spent_A_Night_In_Tavern
 Vampire_Researcher Fell_In_Love Beauty
-Count_von_Krolock Visited Beauty
-Beauty Dreamt_Of Count_von_Krolock
+Count_Von_Krolock Got_intensely_jealous_of Vampire_Researcher
+Count_Von_Krolock Visited Beauty
+Beauty Dreamt_Of Count_Von_Krolock
 Beauty told Host
 Host told Vampire_Researcher
 Beauty went_Castle
-Count_von_Krolock Bit Beauty
+Count_Von_Krolock Bit Beauty
 Vampire_Researcher Looked_For_And_Found Beauty
 Beauty Bit Vampire_Researcher
 
@@ -110,7 +116,7 @@ START Castle
 Dracula slept_in_coffin
 Vampire_Researcher went_Castle
 Vampire_Researcher drove_a_stake_through_the_heart_of Dracula
-Servant was_friend_of Dracula
+Servant Were_friends Dracula
 Servant affronted Vampire_Researcher
 Servant hurt Vampire_Researcher
 Vampire_Researcher escaped
@@ -119,26 +125,21 @@ Priest cured Vampire_Researcher
 
 Sto ; 1.9
 START
-Beauty Went_Cemetery
+Beauty went_Tavern
+Host Was_father_of Beauty
 Nosferatu followed Beauty
 Nosferatu fell_in_love Beauty
 Beauty Went_Mountains
-Villager Kidnapped Beauty
-Nosferatu Realised Villager Kidnapped Beauty
-Nosferatu Looked_For_And_Found Villager
-Nosferatu Attacked Villager
-Nosferatu Fought Villager
-Nosferatu Killed Villager
-Nosferatu Rescued Beauty
-Beauty Fell_In_Love Nosferatu
-Beauty Realised Nosferatu Were_In_Love Lady
-Beauty Hated Lady
-Beauty Looked_For_And_Found Lady
-Beauty Killed Lady
-Nosferatu Realised Beauty Killed Lady
-Nosferatu Followed Beauty
-Nosferatu Killed Beauty
-Nosferatu Killed Nosferatu
+Nosferatu Kidnapped Beauty
+Host Realised Nosferatu Kidnapped Beauty
+Host Looked_For_And_Found Nosferatu
+Nosferatu Attacked Host
+Hunter followed Host
+Hunter Was_attracted_to Beauty
+Hunter Fought Nosferatu
+Hunter Rescued Beauty
+Beauty Fell_In_Love Hunter
+Beauty Got_married_with Hunter
 
 Sto ; 1.10
 START
@@ -152,17 +153,18 @@ Dracula Looked_For_And_Found Beauty
 Dracula Bit Beauty
 
 Sto ; 1.11
-START
-Nosferatu Was_In_Love_With Lady
-Nosferatu Went_Cemetery
-Lady Was_Attracted_To Count_Von_Krolock
-Lady Went_Balea_Lake_With Count_Von_Krolock
-Nosferatu Followed Lady
-Nosferatu Realised Lady Was_Attracted_To Count_Von_Krolock
-Nosferatu Attacked Count_Von_Krolock
-Nosferatu hurt Count_Von_Krolock
-Lady Cured Count_Von_Krolock
-Count_Von_Krolock Bit Lady
+START Castle
+Dracula Transformed_into_bat
+Beauty Went_for_a_walk_in_the_dark
+Dracula Was_attracted_to Beauty
+Dracula kidnapped Beauty
+Dracula Was_close_to_bite Beauty
+Hunter Went_Castle
+Hunter Looked_for_and_found Beauty
+Hunter Attacked Dracula
+Dracula Bit Beauty
+Dracula made_Prisoner Hunter
+Beauty Bit Hunter
 
 Sto ; 1.12
 START
@@ -174,43 +176,32 @@ Nosferatu Followed Lady
 Nosferatu Realised Lady Was_Attracted_To Count_Von_Krolock
 Nosferatu Attacked Count_Von_Krolock
 Count_Von_Krolock Fought Nosferatu
-Count_Von_Krolock Killed Nosferatu
+Lady Ran_and_hide
 
 Sto ; 1.13
 START
 Beauty Went_Mountains
-Hunter Kidnapped Beauty
-Villager Found_By_Accident Hunter
-Villager Realised Hunter Kidnapped Beauty
-Hunter felt_Threatened_by Villager
-Hunter Attacked Villager
-Villager Fought Hunter
-Hunter hurt Villager
-Hunter Ran_Away
-Beauty Went_Village
+Count_Von_Krolock Kidnapped Beauty
+Villager Found_By_Accident Count_Von_Krolock
+Villager Realised Count_Von_Krolock Kidnapped Beauty
+Count_Von_Krolock Attacked Villager
+Villager Fought Count_Von_Krolock
+Count_Von_Krolock Hurt Villager
+Count_Von_Krolock Ran_Away
 Villager Died_By_Injuries
+Count_Von_Krolock Bit Lady
 
 Sto ; 1.14
-START
-Nosferatu Were_In_Love Lady
-Nosferatu Were_In_Love Beauty
-Vampire_Researcher Were_In_Love Beauty
-Beauty Went_Mountains
-Villager Kidnapped Beauty
-Nosferatu Realised Villager Kidnapped Beauty
-Nosferatu Looked_For_And_Found Villager
-Nosferatu Attacked Villager
-Nosferatu Fought Villager
-Nosferatu Killed Villager
-Nosferatu Rescued Beauty
-Beauty Fell_In_Love Nosferatu
-Beauty Realised Nosferatu Were_In_Love Lady
-Beauty hated Lady
-Beauty LOOKED_FOR_AND_FOUND Lady
-Beauty Killed Lady
-Nosferatu Realised Beauty Killed Lady
-Nosferatu LOOKED_FOR_AND_FOUND Beauty
-Nosferatu Killed Beauty
-Nosferatu Killed Nosferatu
+START Castle
+Servant Fell_in_love Dracula
+Dracula Transformed_into_bat
+Dracula Went_Village
+Dracula Visited Beauty
+Beauty Was_attracted_to Dracula
+Dracula Bit Beauty
+Dracula Went_Castle
+Beauty Followed Dracula
+Servant Got_intensely_jealous_of Beauty
+Servant Drove_a_stake_through_the_heart_of Beauty
 
 END

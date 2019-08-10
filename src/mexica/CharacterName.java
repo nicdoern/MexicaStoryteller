@@ -10,7 +10,6 @@ public enum CharacterName {
     Count_Von_Krolock,
     Priest,
     Lady,
-    Virgin,
     Hunter,
     Vampire_Researcher,
     Host,
@@ -48,7 +47,6 @@ public enum CharacterName {
 
             case Priest:
             case Lady:
-            case Virgin:
             case Hunter:
             case Vampire_Researcher:
             case Host:
@@ -67,7 +65,6 @@ public enum CharacterName {
             case Count_Von_Krolock:return "CK";
             case Priest:return "Pt";
             case Lady:return "L";
-            case Virgin:return "V";
             case Hunter:return "H";
             case Vampire_Researcher:return "VR";
             case Host:return "HO";
@@ -85,7 +82,6 @@ public enum CharacterName {
             case "CK": return Count_Von_Krolock;
             case "Pt": return Priest;
             case "L": return Lady;
-            case "V": return Virgin;
             case "H": return Hunter;
             case "VR": return Vampire_Researcher;
             case "HO": return Host;
@@ -99,7 +95,7 @@ public enum CharacterName {
     /** Characters that can be selected for an action */
     private static CharacterName[] selectableCharacters = new CharacterName[] {
             Dracula, Nosferatu, Count_Von_Krolock, Priest, Beauty,
-            Lady, Virgin, Hunter, Vampire_Researcher, Host, Servant, Villager
+            Lady, Hunter, Vampire_Researcher, Host, Servant, Villager
         };
     
     /**
