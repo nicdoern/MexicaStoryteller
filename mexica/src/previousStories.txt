@@ -4,7 +4,7 @@ Vampire_Researcher admired Hunter
 Hunter had_an_accident
 Vampire_Researcher looked_for_and_found Hunter
 Vampire_Researcher healed Hunter
-Hunter Went_Tavern_With_Vampire_Researcher
+Hunter Went_Tavern_With Vampire_Researcher
 Hunter Went_Castle_With Vampire_Researcher
 Dracula hated Hunter
 Dracula Was_Close_To_Bite Hunter
