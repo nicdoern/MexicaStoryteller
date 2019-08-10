@@ -62,11 +62,10 @@ public class StoryHelper {
         Avatar avatarA = avatarFactory.getAvatar(charactersList.get(0));
         if (condition.getCondition().getTension() != null) {
             Avatar avatar;
-            Avatar avatarB = avatarFactory.getAvatar(action.getCharactersList().get(1));
             if (condition.getCondition().getCharacterA().compareTo("a") == 0 || charactersList.size() < 2) {
                 avatar = avatarA;
             } else {
-                avatar = avatarB;
+                avatar = avatarFactory.getAvatar(action.getCharactersList().get(1));
             }
             if (avatar.isVampire()) {
                 if (condition.getCondition().getTension().name() == "ActorVampire") {
