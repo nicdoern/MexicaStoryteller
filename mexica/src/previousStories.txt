@@ -130,6 +130,7 @@ Servant Hurt Vampire_Researcher
 Vampire_Researcher Escaped
 Priest Found_by_accident Vampire_Researcher
 Priest Cured Vampire_Researcher
+Vampire_Researcher healed
 
 Sto ; 1.9
 START Village

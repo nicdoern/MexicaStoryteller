@@ -49,6 +49,7 @@ TEN
 T Av b a
 TEXT
 @A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late - no time to escape. In the second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
+@A felt thirsty and couldn't resist - @A's long teeth sank into @B's neck.
 
 ACT
 Commited_suicide 1
@@ -276,6 +277,10 @@ TEXT
 
 ACT
 Kissed 2
+PRE
+E a b +3 2
+POS
+E b a +3 2
 TEXT
 @A took the chance and kissed @B.
 
@@ -318,6 +323,9 @@ ACT
 Put_out_a_cross 1
 PRE
 T Ah a *
+T Lr a *
+POS
+T Ln a
 TEXT
 To save themself, @A put out a cross and held it in front of their body.
 
@@ -384,6 +392,8 @@ ACT
 Slept_in_coffin 1
 PRE
 T Av a *
+POS
+P a 4
 TEXT
 As the sun was rising, @A went to sleep in @A 's large, comfy coffin.
 
@@ -402,7 +412,9 @@ TEXT
 ACT
 Transformed_into_bat 1
 PRE
-T Av a *
+T Av a
+POS
+P a 4
 TEXT
 @A seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
 
