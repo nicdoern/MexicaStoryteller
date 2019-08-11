@@ -1,16 +1,12 @@
 ACT
-Admired_and_respected 2
+Admired 2
+PRE
+T Ah a
+T Ah b
 POS
 E a b +2 1
 TEXT
-@A respected and admired @B because of @B's heroic and intrepid behaviour during the last vampire battle.
-
-ACT
-Admired_heroic_behavior 2
-POS
-E a b +3 1
-TEXT
-@A admired @B because of @B's heroic and intrepid behaviour.
+@A admired @B because of @B's heroic and intrepid behaviour during the last vampire battle.
 
 ACT
 Affronted 2
@@ -29,7 +25,7 @@ E b a -2 4
 POS
 E b a +2 1
 TEXT
-@A was really upsed for the last events and decided to beseech for @B's forgiveness.
+@B didn't want @A too feel angry, so @B apologized for what had happened.
 
 ACT
 Attacked 2
@@ -42,34 +38,24 @@ E b a -2 4
 TEN
 T Lr b a +
 TEXT
-@A thoroughly observed @B. Then, @A took a dagger, jumped towards @B and attacked @B.
-@A's frame of mind was very volatile and without thinking about it @A charged against @B.
-
-ACT
-Became_free 1
-PRE
-T Pr a *
-TEN
-T Pf a
-TEXT
-With a hidden knife @A was able to cut all the ropes and escape.
+@A thoroughly observed @B. Then, @A suddenly jumped towards @B and attacked @B.
 
 ACT
 Bit 2
 PRE
-T Av a
-T Ah b
+T Av a *
+T Ah b *
 TEN
-T Av b
+T Av b a
 TEXT
-@A felt fresh blood within close proximity and directly turned his head. @B started shaking, but it was too late - no time to escape. In the second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
+@A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late - no time to escape. In the second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
 
 ACT
-Commited_Suicide 1
+Commited_suicide 1
 TEN
 T Ad a
 TEXT
-@A got that depress that committed suicide.
+@A got so depressed that @A committed suicide.
 
 ACT
 Confronted 2
@@ -78,7 +64,7 @@ E a b -2 1
 E b a -2 1
 E Lb a % 1
 TEXT
-@A was not pleased with @B's recent behavior and demanded @B to stop.
+@A demanded @B to stop.
 
 ACT
 Cured 2
@@ -94,75 +80,18 @@ TEXT
 @A had heard that the angelica archangelica was an effective curative plant. So, @A prepared a plasma and applied it to @B's wounds. It worked and @B started to recuperate! @B realised that @A's determination had saved @B's life.
 
 ACT
-Demanded 2
-POS
-E a b -3 1
-E b a -2 1
-TEN
-T Lr b a
-TEXT
-@A realised that @B's actions originated several problems in the comunity. Thus, @A wanted to stop @B
-
-ACT
-Did_not_accept_reward 2
-PRE
-E a b +2 1
-E b a +2 1
-POS
-E b a -3 1
-TEXT
-Even though @A was pleased with @B's offering. A bad spirit took @A's soul and he denied it. Now @B is really upset.
-
-ACT
-Did_not_cure 2
-PRE
-T Hr b *
-POS
-E b a -3 1
-E Lb a % 1
-TEXT
-@A, knowing that @B's life was at risk, did not to cure @B. In this way, @A expected @B's dead.
-
-ACT
-Did_Not_Know_to_cure 2
-PRE
-T Hr b *
-POS
-E b a +2 1
-TEXT
-@A tried to cure @B, but @A did not know how to use the curative plants.
-
-ACT
 Did_not_love 2
 PRE
 E b a +3 2
 POS
 E b a -2 1
 TEXT
-PENDING TEXT
+@A didn't share @B's feelings.
 
 ACT
-Did_not_Save 2
+Did_not_survive 1
 PRE
-T Lr b *
-POS
-E b a -3 1
-E Lb a % 1
-TEN
-T Ln b *
-TEXT
-Even when @A could help @B, @A decided it was not worth to take the risk. However, the danger passed suddenly. @B hated @A because @A was a coward.
-
-ACT
-Did_not_spare 2
-PRE
-T Ce b a
-TEXT
-@B's previous behaviors confused @A but the anger was bigger than the forgiveness and a second opportunity was no longer an option for @B.
-
-ACT
-did_not_survive 1
-PRE
+T Ah a
 T Lr a *
 TEN
 T Ad a *
@@ -170,8 +99,9 @@ TEXT
 Even when @A made a great effort to survive, it didn't have a good outcome.
 
 ACT
-died_by_injuries 1
+Died_by_injuries 1
 PRE
+T Ah a
 T Hr a *
 TEN
 T Ad a
@@ -179,12 +109,17 @@ TEXT
 The injuries that @A received were very serious, he didn't have a chance to survive and died.
 
 ACT
-drove_a_stake_through_the_heart_of 2
+Dreamt_of 2
+TEXT
+@A could not get @B out of the mind, @B even followed @A in dreams.
+
+ACT
+Drove_a_stake_through_the_heart_of 2
 PRE
-T Av b
-T Ah a
+T Av b *
+T Ah a *
 TEN
-T Ad b
+T Ad b a
 TEXT
 @A took the moment and drove a stake through @B's heart. @B gave a deep scream and in the next moment went to dust.
 
@@ -205,26 +140,13 @@ POS
 E a b +3 2
 TEXT
 Although at the beginning @A did not want to admit it, @A fell in love with @B.
+@A could feel butterflies in the stomach - @A simply had fallen in love with @B.
 
 ACT
-Felt_Guilty_With 2
+Felt_threatened_by 2
 PRE
-E b a -3 4
-POS
-E b a -3 1
-E a a -3 1
-TEXT
-@A felt guilty for all the things that @A did to @B.
-
-ACT
-felt_strong_envy_for 2
-POS
-E a b -3 1
-TEXT
-@A perceived how people loved and admired @B. Since @A was a very insecure person, @A developed a strong envy for @B.
-
-ACT
-felt_Threatened_by 2
+T Ah a
+T Ah b *
 POS
 E a b -3 1
 TEXT
@@ -236,17 +158,6 @@ POS
 P a b_pos
 TEXT
 Without being noticed, @A followed @B.
-
-ACT
-forced_marriage_with 2
-PRE
-E a b +3 2
-E b a -1 4
-TEN
-T Lr a b
-T Pr b a
-TEXT
-@A realised that @B did not felt the same way and planed a forced marriage. @B now is a prisoner in @A's house and there's nothing to do. Although, @A's life is endangered.
 
 ACT
 Fought 2
@@ -270,18 +181,11 @@ TEXT
 While walking around, @A suddenly saw @B.
 
 ACT
-Got_intensely_Jealous_of 2
+Got_intensely_jealous_of 2
 POS
 E a b -3 1
 TEXT
-A bad spirit took @A's soul provoking that @A got intensely jealous of @B.
-
-ACT
-Got_Jealous_Of 2
-POS
-E a b -2 1
-TEXT
-A bad spirit took @A's soul provoking that @A got jealous of @B.
+@A got intensely jealous of @B.
 
 ACT
 Got_married_with 2
@@ -293,24 +197,24 @@ E a b +3 2
 E b a +3 2
 P a b_pos
 TEXT
-The love that @A felt towards @B could not be hidden anymore, and they decided to join their lives for the eternity.
+After all they went through together, @A and @B decided to marry and celebrated a big wedding party.
 
 ACT
 Had_an_accident 1
 TEN
 T Hr a
 TEXT
-PENDING TEXT
+Just a moment preoccupied, @A stumbled and overbalanced.
 
 ACT
 Hated 2
 POS
 E a b -3 1
 TEXT
-@A hated @B.
+@A felt deep anger when thinking about @B.
 
 ACT
-hated_and_loved 2
+Hated_and_loved 2
 PRE
 E a b -2 4
 E a b +2 4
@@ -330,15 +234,6 @@ TEXT
 After some sleep and rest, @A felt much better.
 
 ACT
-honor_was_damaged_by 2
-PRE
-E a b -3 4
-POS
-E La b % 1
-TEXT
-@B damaged @A's honor.
-
-ACT
 Hurt 2
 PRE
 E a b -3 4
@@ -348,7 +243,7 @@ E Lb a % 1
 TEN
 T Hr b a
 TEXT
-@A took a war lance and hurt seriously @B.
+In a fast movement, @A took a knife out of his bag and hurt @B.
 
 ACT
 Kidnapped 2
@@ -357,14 +252,19 @@ E b a -3 1
 E Lb a % 1
 P a 9
 P b 9
+T Av a *
+T Ah b
 TEN
 T Pr b a
+P a 4
+P b 4
 TEXT
-PENDING TEXT
+@B felt two strong arms pulling at the back and had no chance to escape. @A was kidnapping @B to @A's castle.
 
 ACT
 Killed 2
 PRE
+T Ah b
 E a b -3 4
 POS
 E b a -3 1
@@ -372,77 +272,57 @@ E Lb a % 1
 TEN
 T Ad b a
 TEXT
-PENDING TEXT
+@A didn't feel pity with @B and strangled @B with a long scarf.
+
+ACT
+Kissed 2
+TEXT
+@A took the chance and kissed @B.
 
 ACT
 Laugh_at 2
 POS
 E b a -2 1
 TEXT
-@A made fun and laugh at @B.
+@A made fun and laughed at @B.
 
 ACT
-Life_at_Risk_by_Accident 1
-TEN
-T Lr a *
-TEXT
-Suddenly, a huge snake, the sacred animal, attacked @A.
-
-ACT
-Looked_For_And_Found 2
+Looked_for_and_found 2
 POS
 P a b_pos
 TEXT
 Meanwhile @A decided to start a search for @B. After hard work and difficult moments @A could finally find @B.
 
 ACT
-Loved 2
-POS
-E a b +3 1
-TEXT
-@A admired and felt a strong affection for @B.
-
-ACT
-Made_Prisioner 2
+Made_prisoner 2
 PRE
 E a b -2 4
+T Ah a
+T Av b *
 POS
 E b a -3 1
-P b 7
+P b 4
 TEN
 T Pr b a
 TEXT
-@A put @B into jail. @B could not hide how much @B loathed @A.
+@A put @B into the cold dungeon of @A's castle.
 
 ACT
 Met 2
-TEXT
-One day @A was introduced to @B.
-
-ACT
-Mugged 2
 POS
-E b a -3 1
-E Lb a -3 1
+P a b_pos
 TEXT
-When nobody noticed it, @A mugged @B.
+Unexpectedly @A met @B.
 
 ACT
-paid_his_sentence 1
+Put_out_a_cross 1
 PRE
-T Pr a *
-POS
-P a 5
-TEN
-T Pf a
-T Stn a
-T Sdn a
-T Sbn a
+T Ah a *
 TEXT
-Finally, after a long time paying his social debts, @A was finally free.
+To save themself, @A put out a cross and held it in front of their body.
 
 ACT
-ran_and_hide_from 2
+Ran_and_hide_from 2
 PRE
 E a b -3 4
 POS
@@ -451,16 +331,16 @@ TEXT
 @A felt panic and ran away to hide from @B in the Carpathians.
 
 ACT
-ran_and_hide 1
+Ran_and_hide 1
 PRE
 E a b -3 4
 POS
 P a 2
 TEXT
-@A felt remorse and ran away to hide in the Carpathians.
+@A felt a deep fear and ran away to hide in the Carpathians.
 
 ACT
-ran_away_from 2
+Ran_away_from 2
 PRE
 T Lr a b
 POS
@@ -469,23 +349,13 @@ TEXT
 @A felt panic and ran away from @B to hide in the Carpathians.
 
 ACT
-ran_away 1
+Ran_away 1
 PRE
 T Lr a *
 POS
 P a 2
 TEXT
 @A felt panic and ran away to hide in the Carpathians.
-
-ACT
-relatives_envy 2
-POS
-E a b -2 1
-E b a +3 1
-TEXT
-@B was admired by the locals. @B loved @A since they were relatives. However, @A was a sick person and could not stand @B's popularity. @A felt a strong envy for @B.
-Although @A and @B were relatives, @B always received all the attention from the family. That is why @A hated @B.
-@A and @B grow up together. However, @A was an evil person and never was able to accept @B 's popularity. @A really hated @B!
 
 ACT
 Rescued 2
@@ -497,7 +367,7 @@ E Lb a % 1
 TEN
 T Pf b a
 TEXT
-PENDING TEXT
+@A released @B from the scary castle.
 
 ACT
 Saved_life 2
@@ -508,32 +378,38 @@ E b a +3 1
 TEN
 T Ln b *
 TEXT
-The rumour had spread fast. @B had fallen into the river and @A saved @B's life.
+@B nearly got bitten by a vampire and @A saved @B's life.
 
 ACT
-Took_for_wife 2
+Slept_in_coffin 1
 PRE
-E a b +1 2
-POS
-E b a -3 1
+T Av a *
 TEXT
-@A was in love with @B and decided to make a life together. @A decided to marry @B, even without approval.
+As the sun was rising, @A went to sleep in @A's large, comfy coffin.
 
 ACT
-Tried_to_abuse 2
+Spent_a_night_in_Tavern 1
 POS
-E b a -3 1
-E Lb a % 1
+P a 7
 TEXT
-@A tried to sexually abuse from @B.
+It had been a long day. To find some calm sleep, @A decided to stay a night in one og the guestrooms in the old tavern.
 
 ACT
-Tried_to_force_kiss 2
-POS
-E b a -2 1
-E Lb a % 1
+Told 2
 TEXT
-@A tried to kiss and hug @B.
+@A told @B about what had happened
+
+ACT
+Transformed_into_bat 1
+PRE
+T Av a *
+TEXT
+@A seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
+
+ACT
+Visited 2
+Text
+@A decided to secretly visit @B.
 
 ACT
 Was_attracted_to 2
@@ -543,32 +419,33 @@ TEXT
 @A felt a strong attraction for @B.
 
 ACT
-was_brother_of 2
+Was_brother_of 2
 POS
 E a b +3 1
 TEXT
 @A was a brother of @B.
 
 ACT
-was_father_of 2
+Was_close_to_bite 2
+PRE
+T Av a *
+T Ah b *
+TEXT
+@A smelled the fresh human blood near his face and opened his mouth, so you could see their sharp teeth.
+
+ACT
+Was_father_of 2
 POS
 E a b +3 1
 TEXT
-PENDING TEXT
+@A was @B's father.
 
 ACT
-Was_Fond_Of 2
+Was_fond_of 2
 POS
 E a b +1 1
 TEXT
 From the first day they met, @A felt a special affection for @B.
-
-ACT
-Was_Friend_Of 2
-POS
-E a b +2 1
-TEXT
-PENDING TEXT
 
 ACT
 Was_in_love_with 2
@@ -578,24 +455,11 @@ TEXT
 @A was in love with @B.
 
 ACT
-Was_Told 1
-TEXT
-PENDING TEXT
-
-ACT
 Went_Forest 1
 POS
 P a 9
 TEXT
-Early in the morning @A went to the forest.
-
-ACT
-Went_Forest_with 2
-POS
-P a 9
-P b 9
-TEXT
-Early in the morning @A and @B went to the forest.
+As @A needed some time to get a free head, @A decided to go for a walk in the forest.
 
 ACT
 Went_Tavern 1
@@ -605,29 +469,44 @@ TEXT
 @A went to the tavern.
 
 ACT
+Went_Tavern_with 2
+POS
+P a 7
+TEXT
+@A went to the tavern with @B to drink something and get some new power and energy.
+
+ACT
 Went_Castle 1
 POS
 P a 4
 TEXT
-@A went to Dracula's castle.
+@A went to the old vampire castle upon the hill.
+
+ACT
+Went_Castle_with 2
+POS
+P a 4
+P b 4
+TEXT
+@A went to the old vampire castle upon the hill. In the company of @B, @A felt much safer.
+
+ACT
+Went_for_a_walk_in_the_dark 1
+POS
+P a 5
+TEXT
+It was a calm, foggy night. The full moon was hidden behind some clouds. @A felt like going for a little walk in the dark.
+It was close to midnight now. You could hear a werewolf howl from the deep forest - or was it just the wind? @A wasn't tired now und had decided to go for a little walk.
 
 ACT
 Went_Mountains 1
 POS
 P a 2
 TEXT
-@A went to the mountains.
+@A went on a hiking tour through the Carpathians.
 
 ACT
-Went_Mountains 2
-POS
-P a 2
-P b 2
-TEXT
-@A invited @B to go climbing in the the mountains.
-
-ACT
-Went_Farmhouse_With 2
+Went_Farmhouse_with 2
 POS
 P a 6
 P b 6
@@ -640,15 +519,6 @@ POS
 P a 6
 TEXT
 @A went to the old farmhouse.
-
-ACT
-Went_Village_with 2
-POS
-P a 5
-P b 5
-TEXT
-@A and @B went back home, to the little Transylvanian village.
-@A and @B went to the the little Transylvanian village.
 
 ACT
 Went_Village 1
@@ -680,22 +550,6 @@ TEXT
 @A decided to take a shortcut over the cemetery.
 
 ACT
-Went_Cemetery_with 2
-POS
-P a 3
-P b 3
-TEXT
-PENDING TEXT
-
-ACT
-Were_attracted_to 2
-POS
-E a b +2 2
-E b a +2 2
-TEXT
-For long time @A and @B had been flirting. Now, openly they accepted the mutual attraction they felt for each other.
-
-ACT
 Were_brothers 2
 POS
 E a b +3 1
@@ -709,10 +563,10 @@ POS
 E a b +2 1
 E b a +2 1
 TEXT
-@A and @B had met in school. Since then they had been good friends.
+@A and @B were close friends, they met nearly each day.
 
 ACT
-Were_In_Love 2
+Were_in_love 2
 POS
 E a b +3 2
 E b a +3 2
@@ -734,17 +588,5 @@ E a b -2 1
 E b a -2 1
 TEXT
 For long time @A and @B had been rivals. Now, those feelings seemed to grow more and more.
-
-ACT
-Wounded 2
-PRE
-E a b -3 4
-POS
-E b a -3 1
-E Lb a -3 1
-TEN
-T Hr b a
-TEXT
-In a fast movement, @A wounded @B. An intense haemorrhage arouse which weakened @B.
 
 END
