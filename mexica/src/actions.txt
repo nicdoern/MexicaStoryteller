@@ -385,7 +385,7 @@ Slept_in_coffin 1
 PRE
 T Av a *
 TEXT
-As the sun was rising, @A went to sleep in @A's large, comfy coffin.
+As the sun was rising, @A went to sleep in @A 's large, comfy coffin.
 
 ACT
 Spent_a_night_in_Tavern 1
@@ -404,7 +404,7 @@ Transformed_into_bat 1
 PRE
 T Av a *
 TEXT
-@a seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
+@A seemed to shrink and spread two little wings. A black-haired bat was flying through the night.
 
 ACT
 Visited 2
