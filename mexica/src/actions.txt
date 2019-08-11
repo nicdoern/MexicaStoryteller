@@ -51,7 +51,7 @@ TEXT
 @A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late - no time to escape. In the second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
 
 ACT
-Commited_Suicide 1
+Commited_suicide 1
 TEN
 T Ad a
 TEXT
@@ -86,7 +86,7 @@ E b a +3 2
 POS
 E b a -2 1
 TEXT
-@A didn't share @B's feeling.
+@A didn't share @B's feelings.
 
 ACT
 Did_not_survive 1
@@ -214,7 +214,7 @@ TEXT
 @A felt deep anger when thinking about @B.
 
 ACT
-hated_and_loved 2
+Hated_and_loved 2
 PRE
 E a b -2 4
 E a b +2 4
@@ -259,7 +259,7 @@ T Pr b a
 P a 4
 P b 4
 TEXT
-@B felt two strong arms pulling at the back and had no chance to escape. @B was kidnapping @A to @B's castle.
+@B felt two strong arms pulling at the back and had no chance to escape. @A was kidnapping @B to @A's castle.
 
 ACT
 Killed 2
@@ -287,14 +287,14 @@ TEXT
 @A made fun and laughed at @B.
 
 ACT
-Looked_For_And_Found 2
+Looked_for_and_found 2
 POS
 P a b_pos
 TEXT
 Meanwhile @A decided to start a search for @B. After hard work and difficult moments @A could finally find @B.
 
 ACT
-Made_Prisoner 2
+Made_prisoner 2
 PRE
 E a b -2 4
 T Ah a
@@ -309,18 +309,20 @@ TEXT
 
 ACT
 Met 2
+POS
+P a b_pos
 TEXT
 Unexpectedly @A met @B.
 
 ACT
-put_out_a_cross 1
+Put_out_a_cross 1
 PRE
-T Ah a
+T Ah a *
 TEXT
 To save themself, @A put out a cross and held it in front of their body.
 
 ACT
-ran_and_hide_from 2
+Ran_and_hide_from 2
 PRE
 E a b -3 4
 POS
@@ -329,7 +331,7 @@ TEXT
 @A felt panic and ran away to hide from @B in the Carpathians.
 
 ACT
-ran_and_hide 1
+Ran_and_hide 1
 PRE
 E a b -3 4
 POS
@@ -338,7 +340,7 @@ TEXT
 @A felt a deep fear and ran away to hide in the Carpathians.
 
 ACT
-ran_away_from 2
+Ran_away_from 2
 PRE
 T Lr a b
 POS
@@ -347,7 +349,7 @@ TEXT
 @A felt panic and ran away from @B to hide in the Carpathians.
 
 ACT
-ran_away 1
+Ran_away 1
 PRE
 T Lr a *
 POS
@@ -383,10 +385,10 @@ Slept_in_coffin 1
 PRE
 T Av a *
 TEXT
-As the sun was rising, @A went to sleep in their large, comfy coffin.
+As the sun was rising, @A went to sleep in @A's large, comfy coffin.
 
 ACT
-Spent_a_night_in_tavern 1
+Spent_a_night_in_Tavern 1
 POS
 P a 7
 TEXT
@@ -427,19 +429,19 @@ ACT
 Was_close_to_bite 2
 PRE
 T Av a *
-T Ah b
+T Ah b *
 TEXT
 @A smelled the fresh human blood near his face and opened his mouth, so you could see their sharp teeth.
 
 ACT
-was_father_of 2
+Was_father_of 2
 POS
 E a b +3 1
 TEXT
 @A was @B's father.
 
 ACT
-Was_Fond_Of 2
+Was_fond_of 2
 POS
 E a b +1 1
 TEXT
@@ -457,15 +459,7 @@ Went_Forest 1
 POS
 P a 9
 TEXT
-Early in the morning @A went to the forest.
-
-ACT
-Went_Forest_with 2
-POS
-P a 9
-P b 9
-TEXT
-Early in the morning @A and @B went to the forest.
+As @A needed some time to get a free head, @A decided to go for a walk in the forest.
 
 ACT
 Went_Tavern 1
@@ -475,7 +469,7 @@ TEXT
 @A went to the tavern.
 
 ACT
-Went_Tavern_With 2
+Went_Tavern_with 2
 POS
 P a 7
 TEXT
@@ -486,14 +480,15 @@ Went_Castle 1
 POS
 P a 4
 TEXT
-@A went to Dracula's castle.
+@A went to the old vampire castle upon the hill.
 
 ACT
-Went_Castle_With 2
+Went_Castle_with 2
 POS
 P a 4
+P b 4
 TEXT
-The next day @A and @B made themselves on their way to Dracula's castle.
+@A went to the old vampire castle upon the hill. In the company of @B, @A felt much safer.
 
 ACT
 Went_for_a_walk_in_the_dark 1
@@ -511,15 +506,7 @@ TEXT
 @A went on a hiking tour through the Carpathians.
 
 ACT
-Went_Mountains 2
-POS
-P a 2
-P b 2
-TEXT
-@A invited @B to go climbing in the the mountains.
-
-ACT
-Went_Farmhouse_With 2
+Went_Farmhouse_with 2
 POS
 P a 6
 P b 6
@@ -532,15 +519,6 @@ POS
 P a 6
 TEXT
 @A went to the old farmhouse.
-
-ACT
-Went_Village_with 2
-POS
-P a 5
-P b 5
-TEXT
-@A and @B went back home, to the little Transylvanian village.
-@A and @B went to the the little Transylvanian village.
 
 ACT
 Went_Village 1
@@ -572,14 +550,6 @@ TEXT
 @A decided to take a shortcut over the cemetery.
 
 ACT
-Went_Cemetery_with 2
-POS
-P a 3
-P b 3
-TEXT
-PENDING TEXT
-
-ACT
 Were_brothers 2
 POS
 E a b +3 1
@@ -596,7 +566,7 @@ TEXT
 @A and @B were close friends, they met nearly each day.
 
 ACT
-Were_In_Love 2
+Were_in_love 2
 POS
 E a b +3 2
 E b a +3 2

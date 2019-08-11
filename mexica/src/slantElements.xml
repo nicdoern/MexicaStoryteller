@@ -33,7 +33,7 @@
         <thing id="knife" name="knife" article="a" />
         <thing id="ropes" name="ropes" article="some" />
         <thing id="curative_plant" name="curative plant" article="a" />
-        <thing id="bough" name="bough" article="a" />
+        <thing id="dagger" name="dagger" article="a" />
         <thing id="river" name="river" article="a" />
         <thing id="bite mark" name="bite mark" article="a" />
         <thing id="murder" name="murder" article="a" />
