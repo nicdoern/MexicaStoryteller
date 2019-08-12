@@ -15,7 +15,7 @@ public class PreviousStories implements PreviousStoriesConstants {
     private List<PreviousStory> stories;
     private PreviousStory story;
     private ActionStore actionStore;
-    private boolean DEBUG_ACTIONS = false;
+    private boolean DEBUG_ACTIONS = true;
             
     public PreviousStories(ActionStore actions) throws FileNotFoundException {
         this(actions, MexicaParameters.PREV_STORIES_FILE);

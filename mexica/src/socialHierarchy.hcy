@@ -1,10 +1,10 @@
 Gender_Hierarchy
-Male 2 (Dracula Nosferatu Count_Von_Krolock Vampire_Researcher Hunter Priest Farmer Fisherman Host Villager Servant Trader)
-Female 1 (Lady Virgin)
+Male 2 (Dracula Nosferatu Count_Von_Krolock Priest Vampire_Researcher Hunter Host Villager Servant)
+Female 1 (Lady Beauty)
 Social_Class_Hierarchy
-Nobility 5 (Priest)
-High_Society 4 (Dracula Nosferatu Count_Von_Krolock)
-Fighters 3 (Hunter Vampire_Researcher)
-Workers 2 (Farmer Fisherman Host Lady Virgin Trader)
-Low_Society 1 (Villager Servant)
+Nobility 5 (Dracula Nosferatu Count_Von_Krolock)
+High_Society 4 (Priest Vampire_Researcher)
+Fighters 3 (Hunter)
+Workers 2 (Lady Host Villager)
+Low_Society 1 (Servant)
 END
