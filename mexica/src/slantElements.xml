@@ -35,12 +35,12 @@
         <thing id="curative_plant" name="curative plant" article="a" />
         <thing id="dagger" name="dagger" article="a" />
         <thing id="river" name="river" article="a" />
-        <thing id="bite mark" name="bite mark" article="a" />
+        <thing id="bite_mark" name="bite mark" article="a" />
         <thing id="murder" name="murder" article="a" />
         <thing id="knife" name="knife" article="a" />
         <thing id="stake" name="stake" article="an" />
         <thing id="garlic" name="garlic" article="a" />
         <thing id="cross" name="cross" article="a" />
-        <thing id="holy water" name="holy water" article="a" />
+        <thing id="holy_water" name="holy water" article="a" />
     </things>
 </slantElements>

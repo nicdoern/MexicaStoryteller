@@ -77,7 +77,6 @@ E Lb a % 1
 TEN
 T Hn b a
 TEXT
-@A went in search of some medical plants and cured @B. As a result @B was very grateful to @A.
 @A had heard that the angelica archangelica was an effective curative plant. So, @A prepared a plasma and applied it to @B's wounds. It worked and @B started to recuperate! @B realised that @A's determination had saved @B's life.
 
 ACT
