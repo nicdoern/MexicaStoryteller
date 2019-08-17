@@ -48,7 +48,7 @@ T Ah b *
 TEN
 T Av b a
 TEXT
-@A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late - no time to escape. In the second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
+@A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late - no time to escape. In the next second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
 @A felt thirsty and couldn't resist - @A's long teeth sank into @B's neck.
 
 ACT
@@ -146,7 +146,7 @@ ACT
 Felt_threatened_by 2
 PRE
 T Ah a
-T Ah b *
+T Av b *
 POS
 E a b -3 1
 TEXT
