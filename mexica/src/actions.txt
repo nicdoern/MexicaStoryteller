@@ -507,7 +507,7 @@ POS
 P a 5
 TEXT
 It was a calm, foggy night. The full moon was hidden behind some clouds. @A felt like going for a little walk in the dark.
-It was close to midnight now. You could hear a werewolf howl from the deep forest - or was it just the wind? @A wasn't tired now und had decided to go for a little walk.
+It was close to midnight now. You could hear a werewolf howl from the deep forest - or was it just the wind? @A wasn't tired and had decided to go for a little walk.
 
 ACT
 Went_Mountains 1
