@@ -48,7 +48,7 @@ T Ah b *
 TEN
 T Av b a
 TEXT
-@A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late - no time to escape. In the next second @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
+@A felt fresh blood within close proximity and directly turned their head. @B started shaking, but it was too late – no time to escape. In the next second, @B felt a deep hurt in the neck and lost consciousness. A few hours later a new vampire would come to life.
 @A felt thirsty and couldn't resist - @A's long teeth sank into @B's neck.
 
 ACT
@@ -140,7 +140,7 @@ POS
 E a b +3 2
 TEXT
 Although at the beginning @A did not want to admit it, @A fell in love with @B.
-@A could feel butterflies in the stomach - @A simply had fallen in love with @B.
+@A could feel butterflies in the stomach  – @A simply had fallen in love with @B.
 
 ACT
 Felt_threatened_by 2
@@ -509,7 +509,7 @@ POS
 P a 5
 TEXT
 It was a calm, foggy night. The full moon was hidden behind some clouds. @A felt like going for a little walk in the dark.
-It was close to midnight now. You could hear a werewolf howl from the deep forest - or was it just the wind? @A wasn't tired now und had decided to go for a little walk.
+It was close to midnight now. You could hear a werewolf howl from the deep forest  –  or was it just the wind? @A wasn't tired and had decided to go for a little walk.
 
 ACT
 Went_Mountains 1
