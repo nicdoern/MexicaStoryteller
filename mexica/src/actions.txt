@@ -441,6 +441,8 @@ Was_close_to_bite 2
 PRE
 T Av a *
 T Ah b *
+POS
+T Lr a b
 TEXT
 @A smelled the fresh human blood near his face and opened his mouth, so you could see their sharp teeth.
 
